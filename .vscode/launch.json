@@ -15,7 +15,7 @@
             ]
         },
         {
-            "name": ".NET Core Launch (web)",
+            "name": "LiveChatServer",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
