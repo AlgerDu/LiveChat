@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/Src/Server/bin/Debug/netcoreapp1.0/LiveChatServerSide.dll",
+            "program": "${workspaceRoot}/Src/Server/bin/Debug/netcoreapp1.0/LiveChatServer.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false,

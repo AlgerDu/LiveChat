@@ -1,5 +1,5 @@
 {
-  "name": "LiveChatServerSide",
+  "name": "LiveChatServer",
   "version": "1.0.0-*",
   "description": ".net core demo server side",
   "authors": [
