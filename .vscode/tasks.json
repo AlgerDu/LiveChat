@@ -9,7 +9,7 @@
         {
             "taskName": "build",
             "args": [
-                "${workspaceRoot}\\Src\\LiveChat\\project.json"
+                "${workspaceRoot}\\Src\\Server\\project.json"
             ],
             "isBuildCommand": true,
             "showOutput": "silent",
