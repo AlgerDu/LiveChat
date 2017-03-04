@@ -1,8 +1,10 @@
 {
-  "name": "LiveChat",
+  "name": "LiveChatServerSide",
   "version": "1.0.0-*",
-  "description": "AngularJs2 & .net core demo",
-  "authors": ["AlgerDu"],
+  "description": ".net core demo server side",
+  "authors": [
+    "AlgerDu"
+  ],
   "buildOptions": {
     "debugType": "portable",
     "emitEntryPoint": true
