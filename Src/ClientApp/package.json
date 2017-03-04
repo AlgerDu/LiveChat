@@ -1,10 +1,10 @@
 {
-  "name": "angular2-webpack",
+  "name": "live-chat-client-app",
   "version": "1.0.0",
-  "description": "A webpack starter for Angular",
+  "description": "live chat client app",
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8080",
-    "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail"
+    "build": "rimraf ../Server/wwwroot && webpack --config config/webpack.prod.js --progress --profile --bail"
   },
   "license": "MIT",
   "dependencies": {

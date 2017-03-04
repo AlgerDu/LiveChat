@@ -10,7 +10,7 @@ module.exports = webpackMerge(commonConfig, {
   devtool: 'source-map',
 
   output: {
-    path: helpers.root('dist'),
+    path: helpers.root('wwwroot'),
     publicPath: '/',
     filename: '[name].[hash].js',
     chunkFilename: '[id].[hash].chunk.js'
@@ -18,7 +18,7 @@ module.exports = webpackMerge(commonConfig, {
 
   plugins: [
     new webpack.NoEmitOnErrorsPlugin(),
-    new webpack.optimize.UglifyJsPlugin({ // https://github.com/angular/angular/issues/10618
+    new webpack.optimize.UglifyJsPlugin({
       mangle: {
         keep_fnames: true
       }
