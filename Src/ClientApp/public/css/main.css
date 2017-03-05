@@ -1,0 +1,11 @@
+.chat {
+    width: auto !important;
+    display: inline-block !important;
+    max-width: 100%;
+}
+
+.cbr {
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
