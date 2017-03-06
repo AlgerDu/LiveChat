@@ -12,10 +12,10 @@ export class Account {
     joinGroups: number[];
 
     constructor(
-        id: number,
-        name: string) {
-        this.chattingUsers = new UserInfo[0];
-        this.joinGroups = new Group[0];
+        public id: number,
+        public name: string) {
+        this.chattingUsers = [];
+        this.joinGroups = [];
     }
 }
 
